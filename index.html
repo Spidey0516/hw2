@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        .box1 {
+            text-align: center;
+            background-color: red;
+        }
+
+        .box2 {
+
+            background-color: rgb(57, 188, 245);
+        }
+
+        li {
+            display: inline-block;
+            padding: 15px 180px;
+        }
+
+        a:link {
+            color: rgb(255, 255, 255);
+        }
+
+        a:visited {
+            color: rgb(255, 255, 255);
+        }
+
+        a:hover {
+            color: rgb(254, 245, 250);
+        }
+
+        a:active {
+            color: rgba(236, 229, 237, 0.739);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        table {
+            width: 100%;
+            text-align: center;
+            border: solid 1px;
+            border-collapse: separate;
+            font-size:27px;
+            font-weight: 600;
+            
+        }
+
+        .box3 {
+            width: 100%;
+        }
+
+        .box4 {
+            width: 100%;
+        }
+
+        td {
+            border: solid 1px
+        }
+
+        td:nth-child(1) {
+            color: red;
+        }
+
+        td:nth-child(2) {
+            color: darkorange;
+        }
+
+        td:nth-child(3) {
+            color: darkcyan;
+        }
+
+        td:nth-child(4) {
+            color: rgb(233, 249, 8);
+        }
+
+        td:nth-child(5) {
+            color: deepskyblue;
+        }
+
+        tr:nth-child(1) {
+            background-color: rgba(245, 251, 123, 0.771);
+        }
+
+        tr:nth-child(2) {
+            background-color: rgba(255, 171, 156, 0.754);
+        }
+
+        tr:nth-child(3) {
+            background-color: rgba(145, 248, 255, 0.754);
+        }
+
+        tr:nth-child(4) {
+            background-color: rgba(194, 255, 165, 0.754);
+        }
+
+        tr:nth-child(5) {
+            background-color: rgba(246, 239, 239, 0.844);
+        }
+
+        .td1 {
+            border: solid 1px;
+            width: 10%;
+        }
+
+        .imgboxes {
+            width: 150px;
+            height: 200px;
+        }
+
+        .imgshow {
+            width: 500px;
+            height: 1100px;
+
+            box-shadow: 7px 8px 7px 8px rgba(0, 0, 0, .5);
+        }
+
+       .box7 {
+            text-align: center;
+            font-size: 40px;
+            color: red;
+        }
+
+        .div1 {
+            float: left;
+        }
+
+        .div2 {
+            float: right;
+        }
+
+        body {
+            background-image: url(bg.png);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        .box6 {
+            font-size: large;
+            color: aliceblue;
+        }
+
+        .end {
+            text-align: left;
+            background-color: red;
+            clear: both;
+
+            margin-top: -50px;
+
+            border-bottom: 1px;
+            border-top: solid 10px black;
+        }
+        .footer{
+            text-align: left;
+            color: aliceblue;
+        }
+        .footerimg{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="box1">
+            <img src="logo.png" width="190" height="105">
+        </div>
+        <div class="box2">
+            <strong>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="heros.html">英雄</a></li>
+                    <li><a href="villains.html">反派</a></li>
+                </ul>
+            </strong>
+        </div>
+    </header>
+    <main>
+        <table>
+            <tbody>
+                <tr class="box3">
+                    <td class="td1" colspan="1">团队</td>
+                    <td colspan="4">代表人物</td>
+                </tr>
+                <tr class="box4">
+                    <td class="td1">复仇者联盟</td>
+                    <td>钢铁侠</td>
+                    <td>美国队长</td>
+                    <td>女浩克</td>
+                    <td>雷神索尔</td>
+                </tr>
+                <tr class="box5">
+                    <td class="td1">简介</td>
+                    <td><img class="imgboxes" src="钢铁侠.jpg"><br>装甲英雄</td>
+                    <td><img class="imgboxes" src="美国队长.jpg"><br>第一位复仇者</td>
+                    <td><img class="imgboxes" src="女浩克.png"><br>力大无穷</td>
+                    <td><img class="imgboxes" src="雷神索尔.png"><br>雷电之子</td>
+                </tr>
+                <tr class="box4">
+                    <td class="td1">街头英雄</td>
+                    <td>蜘蛛侠</td>
+                    <td>月光骑士</td>
+                    <td>金刚狼</td>
+                    <td>石头人</td>
+                </tr>
+                <tr class="box5">
+                    <td class="td1">简介</td>
+                    <td><img class="imgboxes" src="蜘蛛侠.png"><br>能力越大责任越大</td>
+                    <td><img class="imgboxes" src="月光骑士.jpeg"><br>月神化身</td>
+                    <td><img class="imgboxes" src="金刚狼.png"><br>不死之身</td>
+                    <td><img class="imgboxes" src="石头人.png"><br>坚如磐石</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="box6">
+            <p class="box7">图片展示区</p>
+            <div class="div1"><img src="图片1.jpeg" class="imgshow"><br>巨人</div>
+            <div class="div2"><img src="图片2.jpeg" class="imgshow"><br>面具</div>
+            <div class="div1"><img src="图片3.jpeg" class="imgshow"><br>内战</div>
+            <div class="div2"><img src="图片4.jpeg" class="imgshow"><br>雷神</div>
+            <div class="div1"><img src="图片5.jpeg" class="imgshow"><br>钢铁</div>
+            <div class="div2"><img src="图片6.jpeg" class="imgshow"><br>恶魔</div>
+            <div class="div1"><img src="图片7.jpeg" class="imgshow"><br>黑化</div>
+            <div class="div2"><img src="图片8.jpeg" class="imgshow"><br>枪林弹雨</div>
+            <div class="div1"><img src="图片9.jpeg" class="imgshow"><br>奇异</div>
+            <div class="div2"><img src="图片10.jpeg" class="imgshow"><br>变种</div>
+        </div>
+    </main>
+    <footer>
+        <div class="end"><p><img src="logo.png" width="190" height="105"></p></div>
+    </footer>
+</body>
+</html>
